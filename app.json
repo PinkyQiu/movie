@@ -1,0 +1,36 @@
+{
+  "pages":[
+    "pages/index/index"    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"#fff"
+  },
+  "tabBar":{
+    "backgroundColor":"black",
+    "color": "#888",
+    "selectedColor":"#09bb07",
+    "list":[
+      {
+      "pagePath": "pages/index/index",
+      "text": "电影",
+      "iconPath": "images/movic.png",
+      "selectedIconPath": "images/movic1.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "影院",
+        "iconPath":"images/threa.png",
+        "selectedIconPath":"images/threa1.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "查询",
+        "iconPath": "images/search.png",
+        "selectedIconPath": "images/search1.png"
+      }
+    ]
+  }
+}
